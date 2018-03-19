@@ -237,9 +237,9 @@ ex10a = function() {
 
 ex10b = function() {
   return db.orders.insert({
-    total: NumberDecimal(1000),
+    total: NumberDecimal(1005),
     VAT: NumberDecimal(0.20),
-    totalWithVAT: NumberDecimal(1200),
+    totalWithVAT: NumberDecimal(1020),
     lineitems: [
       {
         sku: "MDBTS001",
