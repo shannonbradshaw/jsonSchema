@@ -219,38 +219,38 @@ ex9 = function() {
 
 ex10a = function() {
   return db.orders.insert({
-    total: NumberDecimal(141),
+    total: NumberDecimal(1005),
     VAT: NumberDecimal(0.20),
-    totalWithVAT: NumberDecimal(169),
+    totalWithVAT: NumberDecimal(1020),
     lineitems: [
       {
         name: "Chloe Kim Signature Snowboard",
-        quantity: NumberInt(10),
-        unit_price: NumberDecimal(9)
+        quantity: NumberInt(2),
+        unit_price: NumberDecimal(400)
       },
       {
         sku: "MDBTS002",
-        quantity: NumberInt(5),
-        price: NumberDecimal(10)
+        quantity: NumberInt(4),
+        price: NumberDecimal(50)
       } ] } ) };
 
 
 ex10b = function() {
   return db.orders.insert({
-    total: NumberDecimal(141),
+    total: NumberDecimal(1000),
     VAT: NumberDecimal(0.20),
-    totalWithVAT: NumberDecimal(169),
+    totalWithVAT: NumberDecimal(1200),
     lineitems: [
       {
         sku: "MDBTS001",
         name: "Chloe Kim Signature Snowboard",
-        quantity: NumberInt(10),
-        unit_price: NumberDecimal(9)
+        quantity: NumberInt(2),
+        unit_price: NumberDecimal(400)
       },
       {
         sku: "MDBTS002",
-        quantity: NumberInt(5),
-        unit_price: NumberDecimal(10)
+        quantity: NumberInt(4),
+        unit_price: NumberDecimal(50)
       } ] } ) };
 
 
